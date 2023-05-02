@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="lojaEletronicaCss.css">
+    <title> Loja de eletrônicos </title>
+</head>
+<body>
+    <header><h2> Loja de eletrônicos </h2></header>
+    <section>
+        <form id="estoque">
+            <p><h3> Quantidade de produtos em estoque e unidades vendidas: </h3></p>
+            <div id="produtos">
+                <div class="eletronicos">
+                    <p><h4> smartwatch </h4></p>
+                    <p> No estoque: <input type="number" id="prod1"> </p>
+                    <p> Vendidos: <input type="number" id="vend1"> </p>
+                </div>
+                <div class="eletronicos">
+                    <p><h4> fone </h4></p>
+                    <p> No estoque: <input type="number" id="prod2"> </p>
+                    <p> Vendidos: <input type="nunber" id="vend2"> </p>
+                </div>
+                <div class="eletronicos">
+                    <p><h4> Notebooks </h4></p>
+                    <p> No estoque: <input type="number" id="prod3"> </p>
+                    <p> Vendidos: <input type="number" id="vend3"> </p>
+                </div>
+                <div class="eletronicos">
+                    <p><h4> smartphones</h4></p>
+                    <p> No estoque: <input type="number" id="prod4"> </p>
+                    <p> Vendidos: <input type="number" id="vend4"> </p>
+                </div>
+                <div class="eletronicos">
+                    <p><h4> Caixas de som bluetooth</h4></p>
+                    <p> No estoque: <input type="number" id="prod5"> </p>
+                    <p> Vendidos: <input type="number" id="vend5"> </p>
+                </div>
+            </div>
+            <button type="button" onclick="executar()"> Selecionar </button>
+            <p><h3> Quantidade restante de cada produto: </h3></p>
+            <div id="resto">
+                <div class="sobra"> 
+                    <p><h4> smartwatch </h4><div id="rest1">  </div></p>
+                </div>
+                <div class="sobra">
+                    <p><h4> fone </h4><div id="rest2">  </div> </p>
+                </div>
+                <div class="sobra">
+                    <p><h4> Notebooks </h4><div id="rest3">  </div> </p>
+                </div>
+                <div class="sobra">
+                    <p><h4> Smartphones </h4><div id="rest4">  </div> </p>
+                </div>
+                <div class="sobra">
+                    <p><h4> Caixas de som bluetooth </h4><div id="rest5">  </div> </p>
+                </div>
+            </div>
+            </p>
+        </form>
+    </section>
+    <footer></footer>
+    <script src="lojaEletronicaJS.js"></script>
+</body>
+</html>
